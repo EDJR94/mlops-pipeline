@@ -5,3 +5,6 @@ steps:
     args: ['push', 'gcr.io/$PROJECT_ID/mlops-model:latest']
 images:
   - 'gcr.io/$PROJECT_ID/mlops-model:latest'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
